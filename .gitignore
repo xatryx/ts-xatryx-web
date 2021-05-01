@@ -39,3 +39,4 @@ test-report.xml
 
 # others
 package-lock.json
+yarn.lock
