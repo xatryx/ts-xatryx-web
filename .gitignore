@@ -36,3 +36,6 @@ yarn-error.log*
 # test ci
 junit.xml
 test-report.xml
+
+# others
+package-lock.json
