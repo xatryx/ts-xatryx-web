@@ -1,4 +1,3 @@
 import { Navbar } from './Navbar'
-import { Footer } from './Footer'
-
-export { Navbar, Footer }
+import { PageFooter } from './PageFooter'
+export { Navbar, PageFooter }

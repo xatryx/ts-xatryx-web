@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export const Footer = (): React.ReactElement => {
+export const PageFooter = (): React.ReactElement => {
   return (
-    <footer className=" flex flex-row justify-between items-center">
+    <footer className="flex flex-row justify-between items-center">
       <div className="flex space-x-5 py-2">
         <a href="https://github.com/">
           <FontAwesomeIcon

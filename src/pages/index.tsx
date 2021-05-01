@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { SocialLinks } from '../components/SocialLinks'
 import { GetStaticProps } from 'next'
@@ -15,12 +14,8 @@ const teamMembers = [
 
 export default function Home(): React.ReactElement {
   return (
-    <div>
-      <Head>
-        <title>Xatryx</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <header className="pt-40 h-9/10">
+    <>
+      <header className="pt-40">
         <div className="max-w-xl">
           <h1 className="font-bold text-4xl mt-1">Xatryx Teams</h1>
           <p className="text-xl mt-4">
@@ -28,7 +23,7 @@ export default function Home(): React.ReactElement {
           </p>
         </div>
       </header>
-      <main className="h-9/10  items-center">
+      <main className="items-center">
         <h1 className="font-semibold text-3xl py-5 text-center">Our Teams</h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-5">
           {
@@ -45,6 +40,6 @@ export default function Home(): React.ReactElement {
           }
         </div>
       </main>
-    </div>
+    </>
   )
 }
