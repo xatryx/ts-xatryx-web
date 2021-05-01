@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import { Navbar, PageFooter } from '../components'
+import { Navbar } from '../components'
 import { ThemeProvider } from 'next-themes'
 import type { AppProps } from 'next/app'
 
@@ -27,7 +27,6 @@ function MyApp({ Component, pageProps }: AppProps): React.ReactElement {
     <ThemeProvider attribute="class">
       <Navbar />
       <Component {...pageProps} />
-      <PageFooter />
     </ThemeProvider>
   )
 }

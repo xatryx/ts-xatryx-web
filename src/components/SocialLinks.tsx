@@ -13,7 +13,7 @@ export const SocialLinks = ({isGithub, isTwitter, isLinkedIn} : SocialPlatforms)
             isGithub ?
                 <a href={isGithub} target="_blank">
                     <FontAwesomeIcon
-                    className="h-8 w-8 transform hover:scale-110"
+                    className="fa-2x transform hover:scale-110"
                     icon={['fab', 'github-square']}
                     />
                 </a>
@@ -23,7 +23,7 @@ export const SocialLinks = ({isGithub, isTwitter, isLinkedIn} : SocialPlatforms)
             isTwitter ?
                 <a href={isTwitter} target="_blank">
                     <FontAwesomeIcon
-                    className="h-8 w-8 transform hover:scale-110"
+                    className="fa-2x transform hover:scale-110"
                     icon={['fab', 'twitter-square']}
                     />
                 </a>
@@ -33,7 +33,7 @@ export const SocialLinks = ({isGithub, isTwitter, isLinkedIn} : SocialPlatforms)
             isLinkedIn ?
                 <a href={isLinkedIn} target="_blank">
                     <FontAwesomeIcon
-                    className="h-8 w-8 transform	hover:scale-110"
+                    className="fa-2x transform hover:scale-110"
                     icon={['fab', 'linkedin']}
                     />
                 </a>
