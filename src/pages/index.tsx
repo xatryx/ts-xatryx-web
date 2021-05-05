@@ -40,6 +40,18 @@ export default function Home(): React.ReactElement {
           </div>
         </div>
       </header>
+      <main>
+        <section className="bg-gray-700 p-6 text-white">
+          <article className="container mx-auto">
+            <div className="flex flex-row justify-center items-center">
+              <p className="font-thin text-xl">Have a peek on our project concepts and team members over here.</p>
+              <Link href="/about-us">
+                <button className="rounded-full font-bold ml-5 p-3 bg-gray-700 border-2 border-white text-white transform hover:scale-95 hover:underline">About Us</button>
+              </Link>
+            </div>
+          </article>
+        </section>
+      </main>
     </>
   )
 }
