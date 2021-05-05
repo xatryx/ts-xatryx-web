@@ -22,6 +22,11 @@ export default function Home(): React.ReactElement {
             <p className="font-light text-lg md:text-xl lg:text-2xl mt-5">
               We are part of <strong>Bangkit 2021</strong> Programme, Team <strong>#0073</strong>.
             </p>
+            <div className="mt-5">
+              <a href="https://grow.google/intl/id_id/bangkit/" target="_blank">
+                <button className="rounded-full font-bold p-5 bg-black text-white dark:bg-white dark:text-black transform hover:scale-95 hover:underline">Read More About Bangkit Here</button>
+              </a>
+            </div>
           </div>
         </div>
       </header>
