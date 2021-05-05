@@ -15,7 +15,7 @@ const teamMembers = [
 export default function Home(): React.ReactElement {
   return (
     <>
-      <header className="h-96">
+      <header className="h-screen">
         <div className="flex flex-col h-full">
           <div className="text-center my-auto">
             <h1 className="font-black text-2xl md:text-3xl lg:text-4xl">Hi, We Are Xatryx Devs !</h1>
