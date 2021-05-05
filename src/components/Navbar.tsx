@@ -13,7 +13,7 @@ export const Navbar = (): React.ReactElement => {
 
   return (
     <>
-      <div className={"fixed inset-x-0 top-0 " + (showShadow ? " shadow-lg" : " shadow-none")}>
+      <div className={"fixed bg-opacity-70 dark:bg-opacity-30 bg-white backdrop-filter backdrop-blur-lg inset-x-0 top-0 " + (showShadow ? " shadow-lg" : " shadow-none")}>
         <div className="container mx-auto">
           <nav className="flex p-3 justify-between place-items-center">
             <Link href="/">
