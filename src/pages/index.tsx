@@ -20,7 +20,17 @@ export default function Home(): React.ReactElement {
           <div className="text-center my-auto">
             <h1 className="font-black text-2xl md:text-3xl lg:text-4xl">Hi, We Are Xatryx Devs !</h1>
             <p className="font-light text-lg md:text-xl lg:text-2xl mt-5">
-              We are part of <strong>Bangkit 2021</strong> Programme, Team <strong>#0073</strong>.
+              <span>
+                We are part of <strong>Bangkit 2021</strong> Programme, Team <strong>#0073</strong>.
+              </span>
+              <br />
+              <span>
+                Currently working on something related to improving your online experiences.
+              </span>
+              <br />
+              <span className="font-bold">
+                ETA June <strong>4</strong><sup>th</sup>
+              </span>
             </p>
             <div className="mt-5">
               <a href="https://grow.google/intl/id_id/bangkit/" target="_blank">
