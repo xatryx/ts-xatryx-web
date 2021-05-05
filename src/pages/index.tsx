@@ -40,25 +40,6 @@ export default function Home(): React.ReactElement {
           </div>
         </div>
       </header>
-      <main>
-        <section>
-          <h1 className="font-black text-2xl md:text-3xl lg:text-4xl py-5 text-center">Team Members</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
-            {
-              teamMembers.map(item => (
-                <article className="mx-auto p-6" key={item.fullName}>
-                  <img src={item.memberPicture} alt="aHuman" className="border-4 border-current rounded-full"/>
-                  <div className="mt-5 text-center">
-                    <h3 className="font-bold text-xl">{item.fullName}</h3>
-                    <p className="font-normal text-xl">{item.memberRole}</p>
-                    <SocialLinks isGithub={item.github} isLinkedIn={item.linkedin} isTwitter={item.twitter} />
-                  </div>
-                </article>
-              ))
-            }
-          </div>
-        </section>
-      </main>
     </>
   )
 }
