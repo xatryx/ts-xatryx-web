@@ -17,7 +17,7 @@ export const Navbar = (): React.ReactElement => {
         <div className="container mx-auto">
           <nav className="flex p-3 justify-between place-items-center">
             <Link href="/">
-              <a className="font-bold text-lg">Xatryx</a>
+              <a className="font-light text-3xl">Xatryx | <span className="font-medium">Devs</span></a>
             </Link>
             <ThemeSwitcher />
           </nav>
