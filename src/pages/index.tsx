@@ -27,7 +27,7 @@ export default function Home(): React.ReactElement {
       </header>
       <main className="items-center">
         <h1 className="font-semibold text-3xl py-5 text-center">Our Teams</h1>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
           {
             teamMembers.map(item => (
               <article className="mx-auto" key={item.fullName}>
