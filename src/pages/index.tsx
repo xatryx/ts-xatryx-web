@@ -25,22 +25,24 @@ export default function Home(): React.ReactElement {
           </div>
         </div>
       </header>
-      <main className="items-center">
-        <h1 className="font-black text-4xl py-5 text-center">Team Members</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
-          {
-            teamMembers.map(item => (
-              <article className="mx-auto" key={item.fullName}>
-                <img src={item.memberPicture} alt="aHuman" className="rounded-full"/>
-                <div className="mt-5 text-center">
-                  <h1>{item.fullName}</h1>
-                  <p>{item.memberRole}</p>
-                  <SocialLinks isGithub={item.github} isLinkedIn={item.linkedin} isTwitter={item.twitter} />
-                </div>
-              </article>
-            ))
-          }
-        </div>
+      <main>
+        <section>
+          <h1 className="font-black text-4xl py-5 text-center">Team Members</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
+            {
+              teamMembers.map(item => (
+                <article className="mx-auto" key={item.fullName}>
+                  <img src={item.memberPicture} alt="aHuman" className="rounded-full"/>
+                  <div className="mt-5 text-center">
+                    <h1>{item.fullName}</h1>
+                    <p>{item.memberRole}</p>
+                    <SocialLinks isGithub={item.github} isLinkedIn={item.linkedin} isTwitter={item.twitter} />
+                  </div>
+                </article>
+              ))
+            }
+          </div>
+        </section>
       </main>
     </>
   )
