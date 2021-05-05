@@ -21,9 +21,7 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <body className="text-black bg-white dark:bg-gray-900 dark:text-white">
-          <div className="container mx-auto">
-            <Main />
-          </div>
+          <Main />
           <PageFooter />
           <NextScript />
         </body>
