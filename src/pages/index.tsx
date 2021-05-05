@@ -15,12 +15,14 @@ const teamMembers = [
 export default function Home(): React.ReactElement {
   return (
     <>
-      <header className="pt-40">
-        <div className="max-w-xl">
-          <h1 className="font-bold text-4xl mt-1">Xatryx Teams</h1>
-          <p className="text-xl mt-4">
-            We are focusing building solution to protect women & child
-          </p>
+      <header className="h-96">
+        <div className="flex flex-col h-full">
+          <div className="text-center my-auto">
+            <h1 className="font-black text-4xl mt-1">Hi, We Are Xatryx Devs !</h1>
+            <p className="font-light text-2xl mt-4">
+              We are part of <strong>Bangkit 2021</strong> Programme, Team <strong>#0073</strong>.
+            </p>
+          </div>
         </div>
       </header>
       <main className="items-center">
