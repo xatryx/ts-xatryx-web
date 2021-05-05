@@ -18,8 +18,8 @@ export default function Home(): React.ReactElement {
       <header className="h-96">
         <div className="flex flex-col h-full">
           <div className="text-center my-auto">
-            <h1 className="font-black text-4xl mt-1">Hi, We Are Xatryx Devs !</h1>
-            <p className="font-light text-2xl mt-4">
+            <h1 className="font-black text-2xl md:text-3xl lg:text-4xl">Hi, We Are Xatryx Devs !</h1>
+            <p className="font-light text-lg md:text-xl lg:text-2xl mt-5">
               We are part of <strong>Bangkit 2021</strong> Programme, Team <strong>#0073</strong>.
             </p>
           </div>
@@ -27,15 +27,15 @@ export default function Home(): React.ReactElement {
       </header>
       <main>
         <section>
-          <h1 className="font-black text-4xl py-5 text-center">Team Members</h1>
+          <h1 className="font-black text-2xl md:text-3xl lg:text-4xl py-5 text-center">Team Members</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
             {
               teamMembers.map(item => (
                 <article className="mx-auto" key={item.fullName}>
                   <img src={item.memberPicture} alt="aHuman" className="rounded-full"/>
                   <div className="mt-5 text-center">
-                    <h1>{item.fullName}</h1>
-                    <p>{item.memberRole}</p>
+                    <h3 className="font-bold text-xl">{item.fullName}</h3>
+                    <p className="font-normal text-xl">{item.memberRole}</p>
                     <SocialLinks isGithub={item.github} isLinkedIn={item.linkedin} isTwitter={item.twitter} />
                   </div>
                 </article>
